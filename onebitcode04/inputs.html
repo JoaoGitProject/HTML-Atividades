@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs HTML</title>
+</head>
+<body>
+    <form action="https://www.google.com/search">
+        <h1>Formulário</h1>
+        <label for="name">Nome:</label>
+        <input type="text" id="Nome" name="q" required >
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" required>
+        <br><br>
+
+        <label>Gênero:</label>
+        <input type="radio" name="genero" id="masculino" value="m">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="feminino" value="f">
+        <label for="feminino">Feminino</label>
+        <br><br>
+
+        <label>Interesses:</label>
+        <input type="checkbox" id="front-end" value="back-end" name="Interesses">
+        <label for="front-end">Front-end</label required>
+        <input type="checkbox" id="back-end" value="front-end" name="Interesses">
+        <label for="back-end">Back-end</label>
+        <input type="checkbox" id="mobile" value="mobile" name="Interesses">
+        <label for="mobile">mobile</label>
+        <br><br>
+
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data">
+        <br><br>
+        
+        <label for="Arquivo">Arquivo:</label>
+        <input type="file" id="Arquivo" name="arquivo">
+        <br><br>
+        <label for="situacao">Situação</label>
+        <select name="situacao" id="situacao">
+        <option value="" selected disabled>Selecione uma das opções</option>
+        <option value="estudante">Estudando para me tornar um programador</option>
+        <option value="estagio">Sou Estagiário</option>
+        <option value="junior">Sou programador Junior</option>
+        <option value="pleno">Sou programador Pleno</option>
+        </select>
+        <br><br>
+
+        <label for="sobre">Sobre mim: <br></label>
+        <textarea name="areaSobreMim" id="sobre" cols="40" rows="6" placeholder="Fale um pouco sobre você"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+        
+
+
+
+
+        
+    </form>
+</body>
+</html>
